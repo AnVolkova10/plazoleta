@@ -4,44 +4,49 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Cátedra Taller de Tesis',
+    Svg: require('@site/static/img/taller_de_tesis.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Materia final de 5to año de la carrera de Artes Audiovisuales.
+        Profesores: Magdalena Arau, Hernán Khourian & Julian D´ angiolillo.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Facultad de Artes',
+    Svg: require('@site/static/img/facultad_de_artes.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Institución reconocida en Argentina por su formación de artistas de alto
+        nivel. Con una variedad de carreras y posgrados, la facultad cuenta con
+        un cuerpo docente capacitado y una infraestructura de calidad para
+        ofrecer una experiencia educativa enriquecedora..
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Universidad Nacional de La Plata',
+    Svg: require('@site/static/img/universidad_nancional_de_la_plata.svg')
+      .default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        La Universidad Nacional de La Plata es una de las principales
+        instituciones educativas de Argentina, reconocida por su excelencia
+        académica y su amplia oferta de carreras y programas de posgrado en
+        diversas disciplinas con enfoque en la investigación y la innovación.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <div className='text--center'>
+        <Svg className={styles.featureSvg} role='img' />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className='text--center padding-horiz--md'>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
@@ -52,8 +57,8 @@ function Feature({Svg, title, description}) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+      <div className='container'>
+        <div className='row'>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
