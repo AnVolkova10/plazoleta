@@ -72,16 +72,11 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '/category/carpeta-de-tesis',
             position: 'left',
             label: 'Proyecto',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -92,7 +87,7 @@ const config = {
             items: [
               {
                 label: 'Proyecto',
-                to: '/docs/intro',
+                to: '/docs//category/carpeta-de-tesis',
               },
               {
                 label: 'Blog',
