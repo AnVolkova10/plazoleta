@@ -25,4 +25,6 @@ Ignacio Croce - Producción (cursó la materia el año pasado)
 
 Camila Cicchino - Fotografía (cursó la materia hace 2 años)
 
+Aylén Alferi - Arte (estudiante Artes Plásticas)
+
 Es mi grupo de amigos/trabajo que sostengo desde el ingreso de la facultad. Estuvimos en la tesis de les 3, esta vez es mi turno.
