@@ -1,8 +1,8 @@
 {
   "label": "Carpeta de Tesis",
-  "position": 1,
+  "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "conjunto de documentos y materiales relacionados con la investigación"
+    "description": "Conjunto de documentos y materiales relacionados con la investigación."
   }
 }
