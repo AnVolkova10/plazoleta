@@ -7,6 +7,6 @@ tags: [tesis, plazoleta, tp1]
 
 **TRABAJO PRÁCTICO 1**
 
-Aquí se encuentra el trabajo práctico 1 (todavía faltan punto 5, subiré antes de las 12hs el lunes)
+Aquí se encuentra el trabajo práctico 1.
 
-**[TP1](/docs/tp1/1)**
+**[CLICK TP1](/docs/tp1/1)**
